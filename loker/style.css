@@ -1,0 +1,105 @@
+
+.margin-top{
+    margin: 10%;
+}
+
+.image {
+    height: 450px;
+    width: auto;
+    margin: 10px;
+}
+
+.background {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-card {
+    background-color: #E8F9FD;
+}
+
+.tebal{
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #ec5873;
+}
+.aktif{
+    color: #ec5873 ;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #E1E5EA;
+}
+
+.button-cari {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #ec5873;
+}
+
+.button-cari:hover {
+    border-color: black;
+    background-color:white;
+    color: black;
+}
+
+.konten{
+    padding: 2%;
+    background-image: url("begron6.jpg"); 
+    background-size: cover;
+    }
+
+.konten::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;   
+}
+
+.card-cariLoker {
+    background-color: #E1E5EA;
+}
+.card-cariLoker:hover {
+    background-color:#969696;
+    transition: 0.2s;;
+}
+.korsel::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:black;
+    opacity: 0.4;
+}
+.carousel-caption{
+    font-size: 20pt;
+    font-weight: 500;
+}
+.slider-btn{
+    background-color: orange;
+    border-radius: 0;
+    width: 20%;
+    height: 50px;
+    padding: 1rem 1rem;
+    columns: white;
+}
+.btn-warning{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17pt;
+    font-weight: bolder;
+}
+footer {
+    background-color: #969696;
+}
+.kecil{
+    font-size:15pt;
+}
+.kartu{
+    text-decoration: none;
+}
